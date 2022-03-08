@@ -46,6 +46,7 @@ navItem.forEach((link, index) => {
   link.textContent = navItemLinks[index]
   link.classList.add('italic');
 });
+
 // const navAnchors = Array.from(document.querySelectorAll("nav a"));
 // navAnchors.forEach((link,index) => {
 //   link.classList.add('italic')
